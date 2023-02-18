@@ -1,25 +1,5 @@
-Step-By-Step Guides to Setting Up Your Device
 
-# MacOS
-
-1. Install [Visual Studio Code](https://code.visualstudio.com/sha/download?build=stable&os=darwin-universal)
-1. Install [Python](https://www.python.org/ftp/python/3.11.2/python-3.11.2-macos11.pkg)
-   * After you download and go through the install, open the **Terminal** and type `python3 --version`. It should show some numbers on the next line. This confirms that the installation was successful.
-
-# Windows
-1. Install [Visual Studio Code](https://code.visualstudio.com/sha/download?build=stable&os=win32-x64-user)
-2. Install [Python](https://www.python.org/ftp/python/3.11.2/python-3.11.2-amd64.exe)
-   * Open **System Environment Variables** and add to Path the 
-   * Open **Command Prompt** (Win+R, search for "cmd.exe") and type `python3 --version`
   
-# iGEM TeamName Wiki
-
-This repository **MUST** contain all coding assets to generate your team's wiki (HTML, CSS, JavaScript, TypeScript, Python, etc).
-
-Images, photos, icons and fonts **MUST** be stored on `static.igem.wiki` using [uploads.igem.org](https://uploads.igem.org), and Videos **must** be embedded from [iGEM Video Universe](https://video.igem.org).
-
-For up-to-date requirements, resources, help and guidance, visit [competition.igem.org/deliverables/team-wiki](https://competition.igem.org/deliverables/team-wiki).
-
 ## Getting started
 
 You should probably only edit the files inside folders `static`, `wiki` and `wiki > pages`.
@@ -53,28 +33,31 @@ The static assets are in the `static` directory. The layout and templates are in
     |__ app.py              -> Python code managing your wiki
     |__ dependencies.txt    -> Software dependencies from the Python code
 
-### Technologies
+## Getting Started Locally
 
-  * [GitLab Pages](https://docs.gitlab.com/ee/user/project/pages/)
-  * [Python](https://www.python.org): Programming language
-  * [Flask](https://palletsprojects.com/p/flask/): Python framework
-  * [Fronzen-Flask](https://pythonhosted.org/Frozen-Flask): Library that builds the wiki to be deployed as a static website
-  * [Bootstrap](https://getbootstrap.com/docs/5.0/components): CSS and JS components used
+### MacOS
 
-### Building locally (advanced users)
+1. Install [Visual Studio Code](https://code.visualstudio.com/sha/download?build=stable&os=darwin-universal)
+1. Install [Python](https://www.python.org/ftp/python/3.11.2/python-3.11.2-macos11.pkg)
+   * After you download and go through the install, open the **Terminal** and type `python3 --version`. It should show some numbers on the next line. This confirms that the installation was successful.
 
-To work locally with this project, you'll have to follow the steps below:
+### Windows
+1. Install [Visual Studio Code](https://code.visualstudio.com/sha/download?build=stable&os=win32-x64-user)
+2. Install [Python](https://www.python.org/ftp/python/3.11.2/python-3.11.2-amd64.exe)
+   * Open **System Environment Variables** and add to Path the 
+   * Open **Command Prompt** (Win+R, search for "cmd.exe") and type `python3 --version` to confirm. If it does not give you a version number, find me.
+3. Install [Git](https://github.com/git-for-windows/git/releases/download/v2.39.2.windows.1/Git-2.39.2-64-bit.exe)
+   * 
+   * Open **Command Prompt** (Win+R, search for "cmd.exe") and type `git --version` to confirm. 
 
-#### Install
+#### Type in command prompt inside VS Code
 ```bash
+cd desktop
 git clone https://gitlab.igem.org/templates/wiki-frozen-flask
 cd example
-python3 -m venv venv
-. venv/bin/activate
+python -m venv venv
+venv/Scripts/activate
 pip install -r dependencies.txt
-```
 
-#### Execute
-```bash
 python app.py
 ```
