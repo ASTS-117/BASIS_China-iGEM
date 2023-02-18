@@ -4,7 +4,14 @@ Step-By-Step Guides to Setting Up Your Device
 
 1. Install [Visual Studio Code](https://code.visualstudio.com/sha/download?build=stable&os=darwin-universal)
 1. Install [Python](https://www.python.org/ftp/python/3.11.2/python-3.11.2-macos11.pkg)
-   * After you download and go through the install, open the *Terminal* and type `python3 --version`. It should show some numbers on the next line. This confirms that the installation was successful.
+   * After you download and go through the install, open the **Terminal** and type `python3 --version`. It should show some numbers on the next line. This confirms that the installation was successful.
+
+# Windows
+1. Install [Visual Studio Code](https://code.visualstudio.com/sha/download?build=stable&os=win32-x64-user)
+2. Install [Python](https://www.python.org/ftp/python/3.11.2/python-3.11.2-amd64.exe)
+   * Open **System Environment Variables** and add to Path the 
+   * Open **Command Prompt** (Win+R, search for "cmd.exe") and type `python3 --version`
+  
 # iGEM TeamName Wiki
 
 This repository **MUST** contain all coding assets to generate your team's wiki (HTML, CSS, JavaScript, TypeScript, Python, etc).
