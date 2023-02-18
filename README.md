@@ -1,3 +1,10 @@
+Step-By-Step Guides to Setting Up Your Device
+
+# MacOS
+
+1. Install [Visual Studio Code](https://code.visualstudio.com/sha/download?build=stable&os=darwin-universal)
+1. Install [Python](https://www.python.org/ftp/python/3.11.2/python-3.11.2-macos11.pkg)
+   * After you download and go through the install, open the *Terminal* and type `python3 --version`. It should show some numbers on the next line. This confirms that the installation was successful.
 # iGEM TeamName Wiki
 
 This repository **MUST** contain all coding assets to generate your team's wiki (HTML, CSS, JavaScript, TypeScript, Python, etc).
