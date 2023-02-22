@@ -41,14 +41,16 @@ The static assets are in the `static` directory. The layout and templates are in
 1. Install [Python](https://www.python.org/ftp/python/3.11.2/python-3.11.2-macos11.pkg)
    * After you download and go through the install, open the **Terminal** and type `python3 --version`. It should show some numbers on the next line. This confirms that the installation was successful.
 
-### Windows
+### Windows Setup Process
+
 1. Install [Visual Studio Code](https://code.visualstudio.com/sha/download?build=stable&os=win32-x64-user)
 2. Install [Python](https://www.python.org/ftp/python/3.11.2/python-3.11.2-amd64.exe)
    * Open **System Environment Variables** and add to Path the 
    * Open **Command Prompt** (Win+R, search for "cmd.exe") and type `python3 --version` to confirm. If it does not give you a version number, find me.
 3. Install [Git](https://github.com/git-for-windows/git/releases/download/v2.39.2.windows.1/Git-2.39.2-64-bit.exe)
-   * 
    * Open **Command Prompt** (Win+R, search for "cmd.exe") and type `git --version` to confirm. 
+4. Download the .zip folder from the master repo 
+5. Right-click the file "win-setup.ps1" in the BASIS_China-iGEM folder and click "Run with Powershell"
 
 #### Type in command prompt inside VS Code
 ```bash
