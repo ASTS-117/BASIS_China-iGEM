@@ -19,21 +19,26 @@ The static assets are in the `static` directory. The layout and templates are in
 
 ## MacOS Setup Process
 
-1. Install [Visual Studio Code](https://code.visualstudio.com/sha/download?build=stable&os=darwin-universal)
-1. Install [Python](https://www.python.org/ftp/python/3.11.2/python-3.11.2-macos11.pkg)
-   * After you download and go through the install, open the **Terminal** and type `python3 --version`. It should show some numbers on the next line. This confirms that the installation was successful.
 
-## Windows Setup Process
+4. Fork the master repo (https://github.com/drasimov/BASIS_China-iGEM) to your Github account
+5. If you are not using Git (see below), manually download the [.zip file](https://github.com/drasimov/BASIS_China-iGEM/archive/refs/heads/main.zip) of the master repo. Note that if you are not using Git, you will have to do this again each time the master repo is edited.
+6. 
+
+### Optional Git workflow
+1. Install [Git] (https://sourceforge.net/projects/git-osx-installer/files/git-2.15.0-intel-universal-mavericks.dmg/download)
+
+## Setup Process
 
 1. Install a code editor or IDE from the below list:
-   * [Visual Studio Code](https://code.visualstudio.com/sha/download?build=stable&os=win32-x64-user) - most professional and functional, but harder to learn and use
-   * [Sublime Text](https://www.sublimetext.com/download_thanks?target=win-x64) - simple and clean interface with most functions you need
-2. Install [Python](https://www.python.org/ftp/python/3.11.2/python-3.11.2-amd64.exe)
-   * As you go through the installer, make sure you check "Add Python to PATH" and "Disable path length limit." [more help](https://www.tomshardware.com/how-to/install-python-on-windows-10-and-11)
-   * Open **Command Prompt** (Win+R, type in "cmd.exe") and type `python3 --version` or `python --version' to confirm. If it does not give you a version number, find me.
-4. Fork the master repo (https://github.com/drasimov/BASIS_China-iGEM) to your account
+   * Visual Studio Code: [Windows](https://code.visualstudio.com/sha/download?build=stable&os=win32-x64-user) [MacOS](https://code.visualstudio.com/sha/download?build=stable&os=darwin-universal) - most professional and functional, but harder to learn and use
+   * Sublime Text: [Windows](https://www.sublimetext.com/download_thanks?target=win-x64) [MacOS](https://www.sublimetext.com/download_thanks?target=mac) - simple and clean interface with most functions you need
+2. Install **Python** [Windows](https://www.python.org/ftp/python/3.11.2/python-3.11.2-amd64.exe) [MacOS](https://www.python.org/ftp/python/3.11.2/python-3.11.2-macos11.pkg)
+   * For Windows, As you go through the installer, make sure you check "Add Python to PATH" and "Disable path length limit." [more help](https://www.tomshardware.com/how-to/install-python-on-windows-10-and-11)
+   * Open Windows **Command Prompt** (Win+R, type in "cmd.exe") or Apple **Terminal** and type `python3 --version` or `python --version' to confirm. If it does not give you a version number, the installation failed, find me later.
+4. Fork the master repo (https://github.com/drasimov/BASIS_China-iGEM) to your Github account
 5. If you are not using Git (see below), manually download the [.zip file](https://github.com/drasimov/BASIS_China-iGEM/archive/refs/heads/main.zip) of the master repo. Note that if you are not using Git, you will have to do this again each time the master repo is edited.
-6. Unzip the folder where you want to work. I suggest placing the folder on the Desktop or Documents folder
+6. Unzip the folder where you want to work. I suggest placing the folder on the Desktop.
+   * On Mac, double click the folder to unzip. On Windows, click "Compressed Folder Tools" in the top bar and "Extract All"
 5. Right-click the file "win-setup.ps1" (it is inside the BASIS_China-iGEM folder) and click "Run with Powershell"
 
 ### Optional Git workflow
