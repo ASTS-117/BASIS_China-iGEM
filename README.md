@@ -43,23 +43,18 @@ The static assets are in the `static` directory. The layout and templates are in
 
 ### Windows Setup Process
 
-1. Install [Visual Studio Code](https://code.visualstudio.com/sha/download?build=stable&os=win32-x64-user)
+1. Install a code editor or IDE from the below list:
+   * [Visual Studio Code](https://code.visualstudio.com/sha/download?build=stable&os=win32-x64-user) - most professional and functional, but harder to learn and use
+   * [Sublime Text](https://www.sublimetext.com/download_thanks?target=win-x64) - simple and clean interface with most functions you need
 2. Install [Python](https://www.python.org/ftp/python/3.11.2/python-3.11.2-amd64.exe)
-   * Open **System Environment Variables** and add to Path the 
-   * Open **Command Prompt** (Win+R, search for "cmd.exe") and type `python3 --version` to confirm. If it does not give you a version number, find me.
-3. Install [Git](https://github.com/git-for-windows/git/releases/download/v2.39.2.windows.1/Git-2.39.2-64-bit.exe)
-   * Open **Command Prompt** (Win+R, search for "cmd.exe") and type `git --version` to confirm. 
-4. Download the .zip folder from the master repo 
+   * As you go through the installer, make sure you check "Add Python to PATH" and "Disable path length limit." [more help](https://www.tomshardware.com/how-to/install-python-on-windows-10-and-11)
+   * Open **Command Prompt** (Win+R, type in "cmd.exe") and type `python3 --version` or `python --version' to confirm. If it does not give you a version number, find me.
+4. Fork the master repo (https://github.com/drasimov/BASIS_China-iGEM)
+5. If you are not using Git (see below), manually download the .zip file of the master repo
 5. Right-click the file "win-setup.ps1" in the BASIS_China-iGEM folder and click "Run with Powershell"
 
-#### Type in command prompt inside VS Code
-```bash
-cd desktop
-git clone https://gitlab.igem.org/templates/wiki-frozen-flask
-cd example
-python -m venv venv
-venv/Scripts/activate
-pip install -r dependencies.txt
-
-python app.py
-```
+## Optional Git workflow
+1. Install [Git](https://github.com/git-for-windows/git/releases/download/v2.39.2.windows.1/Git-2.39.2-64-bit.exe)
+   * Open **Command Prompt** (Win+R, type in "cmd.exe") and type `git --version` to confirm. 
+   * Run `git config 
+  
