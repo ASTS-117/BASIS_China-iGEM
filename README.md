@@ -1,20 +1,4 @@
-
-  
-## Getting started
-
-You should probably only edit the files inside folders `static`, `wiki` and `wiki > pages`.
-1. Open the Web IDE
-1. Make the changes on the files you wish:
-    * For the menu, change the file [menu.html](wiki/menu.html)
-    * For the layout, change the file [layout.html](wiki/layout.html)
-    * For the pages, change the corresponding file in the foler [pages](wiki/pages)
-1. Review the changes you made
-1. Once you are done, save the changes by **committing** them to the *main branch* of the repository
-1. An automated script will build, test and deploy your wiki, which should take less than 30 seconds.
-
-## About this Template
-
-### Files
+## Files
 
 The static assets are in the `static` directory. The layout and templates are in the `wiki` directory, and the pages live in the `wiki > pages` directory. Unless you are an experienced and/or adventurous human, you probably shouldn't change other files.
 
@@ -33,15 +17,13 @@ The static assets are in the `static` directory. The layout and templates are in
     |__ app.py              -> Python code managing your wiki
     |__ dependencies.txt    -> Software dependencies from the Python code
 
-## Getting Started Locally
-
-### MacOS
+## MacOS Setup Process
 
 1. Install [Visual Studio Code](https://code.visualstudio.com/sha/download?build=stable&os=darwin-universal)
 1. Install [Python](https://www.python.org/ftp/python/3.11.2/python-3.11.2-macos11.pkg)
    * After you download and go through the install, open the **Terminal** and type `python3 --version`. It should show some numbers on the next line. This confirms that the installation was successful.
 
-### Windows Setup Process
+## Windows Setup Process
 
 1. Install a code editor or IDE from the below list:
    * [Visual Studio Code](https://code.visualstudio.com/sha/download?build=stable&os=win32-x64-user) - most professional and functional, but harder to learn and use
@@ -54,7 +36,7 @@ The static assets are in the `static` directory. The layout and templates are in
 6. Unzip the folder where you want to work. I suggest placing the folder on the Desktop or Documents folder
 5. Right-click the file "win-setup.ps1" (it is inside the BASIS_China-iGEM folder) and click "Run with Powershell"
 
-## Optional Git workflow
+### Optional Git workflow
 1. Install [Git](https://github.com/git-for-windows/git/releases/download/v2.39.2.windows.1/Git-2.39.2-64-bit.exe)
    * Open **Command Prompt** (Win+R, type in "cmd.exe") and type `git --version` to confirm. 
    * Run `git config --global user.name XXX` (XXX is your github username) and `git config --global user.email XXX` (XXX is your github email)
