@@ -57,7 +57,7 @@ The static assets are in the `static` directory. The layout and templates are in
 ## Optional Git workflow
 1. Install [Git](https://github.com/git-for-windows/git/releases/download/v2.39.2.windows.1/Git-2.39.2-64-bit.exe)
    * Open **Command Prompt** (Win+R, type in "cmd.exe") and type `git --version` to confirm. 
-   * Run `git config --global user.name XXX` (XXX is your github username) and `git config --global user.email` XXX (XXX is your github email)
+   * Run `git config --global user.name XXX` (XXX is your github username) and `git config --global user.email XXX` (XXX is your github email)
 2. Make sure you have completed steps 1-4 from above.
 3. Navigate to your repository page (yourusername/BASIS_China-iGEM), copy the link in the browser
 4. In **Command Prompt** type `cd Desktop` if you want to work on the desktop, and enter `git clone` and paste the link you copied. Hit enter.
